@@ -1,0 +1,82 @@
+/* sofia-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/sofia-sans-v16-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/sofia-sans-v16-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+/* sofia-sans-600 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/sofia-sans-v16-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/sofia-sans-v16-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  }
+
+/* sofia-sans-800 - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Sofia Sans';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/sofia-sans-v16-latin-800.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('../fonts/sofia-sans-v16-latin-800.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+}
+
+
+body {
+    font-family: 'Sofia Sans', sans-serif, serif;
+    font-size: 16px;
+}
+
+/* -------------------- Home page Section Begin -------------------- */
+
+.home_cl {
+    background-color: #E0F7FA;
+}
+
+.sign_in_btn {
+    text-decoration: none;
+    color: #0B0D0E;
+    border: 2px solid #0B0D0E;
+    border-radius: 10px;
+    padding: 6px 18px;
+    font-weight: 800;
+    transition: 0.6s;
+}
+
+.sign_in_btn:hover {
+    background-color: #0B0D0E;
+    color: #fff;
+}
+
+.sign_up_btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #651FFF;
+    border-radius: 10px;
+    padding: 6px 18px;
+    font-weight: 800;
+    border: 2px solid #651FFF;
+    transition: 0.6s;
+}
+.sign_up_btn:hover {
+    background-color: #fff;
+    color: #651FFF;
+    border: 2px solid #651FFF;
+}
+
+.d_title {
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.d_text {
+    font-size: 18px;
+    color: #5C5F6E;
+}
+/* -------------------- Home page Section End -------------------- */
