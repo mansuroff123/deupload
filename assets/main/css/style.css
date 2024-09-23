@@ -80,3 +80,13 @@ body {
     color: #5C5F6E;
 }
 /* -------------------- Home page Section End -------------------- */
+
+
+/* -------------------- Integrations page Section Begin -------------------- */
+.integrations {
+    background-color: #FAFAFA;
+}
+.my_card {
+    border-radius: 24px;
+}
+/* -------------------- Integrations page Section End -------------------- */
