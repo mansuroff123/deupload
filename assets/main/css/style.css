@@ -152,4 +152,24 @@ body {
 .api {
     background-color: #FAFAFA;
 }
+
+.api_title {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0B0D0E;    
+}
+.api_text {
+    font-size: 16px;
+    color: #838696;
+}
+.api_link {
+    font-size: 18px;
+    color: #00E5FF;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.api_link_2 {
+    color: #651FFF;
+}
 /* -------------------- API page Section End -------------------- */
