@@ -183,36 +183,56 @@ body {
     align-items: center;
     width: 50%; 
     background-color: white;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
-  
-  .custom_form input[type="email"]::placeholder {
-      color: #8989A2;
-  }
-  
-  .custom_form input[type="email"] {
+    border: 1px solid #E2E4E9;
+    border-radius: 12px;
+    padding: 8px 10px;
+}
+
+.custom_form input[type="email"]::placeholder {
+    color: #838696;
+}
+
+.custom_form input[type="email"] {
     border: none;
     outline: none;
     padding: 12px;
     width: 100%;
-    font-size: 16px;
+    font-size: 22px;
+    border-radius: 12px;
   }
   
   .custom_form button {
-    background-color: white;
+    font-size: 20px;
+    background-color: #651FFF;
+    color: white;
     border: none;
     cursor: pointer;
-    padding: 12px;
+    padding: 10px 28px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 12px;
   }
   
-  .custom_form button img {
-    width: 26px; 
-    height: 26px;
-  }
-  
-  
+
+.sign_up_small {
+    font-size: 18px;
+    color: #651FFF;
+    font-weight: 600;
+}
+
+.sign_up_title {
+    font-size: 36px;
+    font-weight: 800;
+    color: #0B0D0E;
+}
+
+.privacy {
+    color: #651FFF;
+    text-decoration: none;
+}
+.privacy:hover {
+    color: #8750ff;
+}
 
 /* -------------------- Sign Up page Section End -------------------- */
