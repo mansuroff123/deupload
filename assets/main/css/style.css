@@ -34,6 +34,15 @@ body {
 }
 
 /* -------------------- Home page Section Begin -------------------- */
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+}
+
 
 .home_cl {
     background-color: #E0F7FA;
@@ -177,11 +186,14 @@ body {
 
 /* -------------------- Sign Up page Section Begin -------------------- */
 
+.signup {
+    background-color: #E0F7FA;
+}
 
 .custom_form {
     display: flex;
     align-items: center;
-    width: 50%; 
+    width: 70%; 
     background-color: white;
     border: 1px solid #E2E4E9;
     border-radius: 12px;
@@ -195,7 +207,7 @@ body {
 .custom_form input[type="email"] {
     border: none;
     outline: none;
-    padding: 12px;
+    padding: 6px;
     width: 100%;
     font-size: 22px;
     border-radius: 12px;
@@ -236,3 +248,38 @@ body {
 }
 
 /* -------------------- Sign Up page Section End -------------------- */
+
+
+
+/* -------------------- Footer Section Begin -------------------- */
+footer {
+    background-color: #1A284E;
+}
+
+.footer_title {
+    color: #E2E4E9;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.footer_text {
+    color: #E2E4E9;
+    font-size: 16px;
+}
+
+
+/* -------------------- Footer Section End -------------------- */
+
+
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+@media screen and (max-width: 768px) {
+    .custom_form {
+        width: 100%;
+    }
+}
