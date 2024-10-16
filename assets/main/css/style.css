@@ -267,15 +267,24 @@ footer {
     font-size: 16px;
 }
 
+.f_link {
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.f_link:hover {
+    color: #00E5FF;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #FFFCF7;
+}
+
 
 /* -------------------- Footer Section End -------------------- */
 
 
-/* styles.css */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
 
 
 @media screen and (max-width: 768px) {
